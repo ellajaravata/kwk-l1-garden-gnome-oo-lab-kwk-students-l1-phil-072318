@@ -15,7 +15,7 @@ class GardenGnome
   end
   
   def return_age=(new_age)
-    @age = new_age
+    @age
   end
   
   
