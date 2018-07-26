@@ -32,17 +32,13 @@ class GardenGnome
     GardenGnome.new
   end
   
-  def personality
+  def return_personality
     @personality
   end 
   
-  def hat_color
+  def return_hat_color
     @hat_color
   end 
-  
-  def reset_hat_color(hat_color=red)
-    @hat_color = red
-  end
   
   def gnaw
     @gnaw
