@@ -18,9 +18,10 @@ class GardenGnome
     @age
   end
   
-  
+  def return_gluten_allergy
+    @gluten_allergy
+  end
    
-  
   def reset_gluten_allergy=(new_gluten_allergy)
     @gluten_allergy = new_gluten_allergy
   end
