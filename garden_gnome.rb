@@ -59,4 +59,3 @@ class GardenGnome
   end
 end
 
-gnaw
