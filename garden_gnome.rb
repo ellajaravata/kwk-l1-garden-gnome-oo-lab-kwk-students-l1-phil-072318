@@ -6,9 +6,9 @@ class GardenGnome
     @name
   end 
   
-  def return_name
-    @name
-  end 
+  def reset_name=(new_name)
+    @name = new_name
+  end
   
   def reset_age=(new_age)
     @age = new_age
@@ -19,9 +19,7 @@ class GardenGnome
   end
   
   
-   def gluten_allergy
-    @gluten_allergy
-  end 
+   
   
   def reset_gluten_allergy=(new_gluten_allergy)
     @gluten_allergy = new_gluten_allergy
