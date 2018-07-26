@@ -50,6 +50,7 @@ class GardenGnome
     puts "GNARLY!!!"
    end
   @shout
+  
   def introduce_self
   @name = name
   @age = age
