@@ -59,4 +59,4 @@ class GardenGnome
   end
 end
 
-GardenGnome.new
+GardenGnome
