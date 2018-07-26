@@ -59,4 +59,4 @@ class GardenGnome
   end
 end
 
-GardenGnome
+return_name
