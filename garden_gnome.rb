@@ -58,5 +58,3 @@ class GardenGnome
   puts "Hello humans, my name is #{age}, I am #{name} years old, and you'll rue the day you crossed me!"
   end
 end
-
-return_name
