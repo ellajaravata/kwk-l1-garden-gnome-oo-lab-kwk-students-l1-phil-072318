@@ -51,7 +51,7 @@ class GardenGnome
     @shout
     puts "GNARLY!!!"
     
-  introduce_self
-  puts "Hello humans, my name is #{}, I am {} years old, and you'll rue the day you crossed me!"
+  def introduce_self
+  puts "Hello humans, my name is #{}, I am #{} years old, and you'll rue the day you crossed me!"
   
 end
