@@ -38,7 +38,7 @@ class GardenGnome
     @hat_color
   end 
   
-  def reset_hat_color.new(hat_color=red)
+  def reset_hat_color(hat_color=red)
     @hat_color = red
   end
   
@@ -58,3 +58,5 @@ class GardenGnome
   puts "Hello humans, my name is #{age}, I am #{name} years old, and you'll rue the day you crossed me!"
   end
 end
+
+GardenGnome.new
