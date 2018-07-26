@@ -38,8 +38,8 @@ class GardenGnome
     @hat_color
   end 
   
-  def reset_hat_color=(new_hat_color)
-    @hat_color = new_hat_color
+  def reset_hat_color.new(hat_color=red)
+    @hat_color = red
   end
   
   def gnaw
@@ -50,8 +50,9 @@ class GardenGnome
   def shout
     @shout
     puts "GNARLY!!!"
-    
+   end
+   
   def introduce_self
   puts "Hello humans, my name is #{}, I am #{} years old, and you'll rue the day you crossed me!"
-  
+  end
 end
