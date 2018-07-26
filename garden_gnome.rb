@@ -49,6 +49,7 @@ class GardenGnome
     @shout
     puts "GNARLY!!!"
    end
+@shout
    
   def introduce_self
   @name = name
@@ -56,5 +57,3 @@ class GardenGnome
   puts "Hello humans, my name is #{age}, I am #{name} years old, and you'll rue the day you crossed me!"
   end
 end
-
-puts reset_hat_color
