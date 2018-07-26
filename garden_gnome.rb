@@ -49,7 +49,7 @@ class GardenGnome
     @shout
     puts "GNARLY!!!"
    end
-@shout
+shout
    
   def introduce_self
   @name = name
