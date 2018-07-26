@@ -6,9 +6,9 @@ class GardenGnome
     @name
   end 
   
-  def name=(name)
-    @name = name
-  end
+  def return_name
+    @name
+  end 
   
   def reset_age=(new_age)
     @age = new_age
