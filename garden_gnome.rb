@@ -57,4 +57,4 @@ class GardenGnome
   end
 end
 
-puts shout
+puts reset_hat_color
